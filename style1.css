@@ -1,0 +1,48 @@
+body{
+    height: 100%;
+}
+.body
+{
+    background-image:radial-gradient(rgba(255, 75, 237, 0.7),rgba(255, 121, 242, 0.8),rgba(255, 168, 241, 0.995),rgb(239, 146, 233),white);
+    background-repeat: repeat-y;
+    background-size:cover;
+}
+table
+{
+    border-spacing: 20px;
+    padding:50px;
+    margin: 20px;
+    border:5px solid  rgb(133, 248, 104);
+    border-radius: 50px;
+    background-color:black;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(133, 248, 104)
+}
+td{
+    font-size: 20px;
+    color:gold;
+}
+.head
+{
+    color: rgb(133, 248, 104);
+    text-shadow:2px 1px 2px gold,1px 2px 2px white;
+}
+button.sub{
+    border-radius: 10px;
+    padding:15px 30px;
+    background-color :black;
+    opacity: 0.9;
+    box-shadow: 2px 1px 2px gold;
+    text-shadow:2px 1px 2px gold;
+    color: rgb(133, 248, 104);
+    border: 5px solid rgb(133, 248, 104);
+    font-size:20px;
+    font-weight: bolder;
+    
+}
+
+
