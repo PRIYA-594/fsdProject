@@ -8,10 +8,14 @@
     padding:10px;
     font-size: 30px;
     font-weight: bolder;
+    display: inline-block;
+    width: 97%;
+
 }
 
 .ri{
     float:right;
+    display: block;
 }
 .logo
 {
@@ -34,15 +38,24 @@
     color:rgb(133, 248, 104);
     font-size: 45px;
 }
-button{
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:rgb(55, 230, 55);
+}
+.button{
     color:white;
     background-color: black;
     border:none;
     padding: 10px;
     font-size: 15px;
     font-weight: bold;
+    display: inline;
+    text-decoration: none;
 }
-button:hover{
+.button:hover{
     color:rgb(55, 230, 55);
     background-color: black;
 }
@@ -124,4 +137,10 @@ img{
     width: 250px;
     border-radius: inherit;
 
+}
+p>a{
+    color: green;
+}
+p>a:hover{
+    color:gold;
 }
