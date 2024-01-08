@@ -3,25 +3,26 @@
 {
     background-color: black;
     color:white;
-    height: 50px;
     border: 10px solid black;
     padding:10px;
-    font-size: 30px;
     font-weight: bolder;
-    display: inline-block;
-    width: 97%;
+    display: flex;
 
 }
 
 .ri{
     float:right;
-    display: block;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    padding: 20px;
 }
 .logo
 {
     background-color: rgb(133, 248, 104);
     padding: 2px;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     margin: 10px;
     padding: 5px 10px;
@@ -70,6 +71,7 @@ a:hover{
 
 }
 .box{
+    
     border: 10px solid rgb(0, 94, 0);
     box-shadow:3px 3px 5px rgb(36, 0, 0),6px 7px 6px rgb(238, 255, 129);
     border-radius: 50px;
@@ -84,12 +86,13 @@ a:hover{
 }
 .category>button{
     width:500px;
-    color:rgb(0, 94, 0);
-    background-color: rgb(103, 255, 103);
+    color:rgb(0, 0, 0);
+    background-color: rgb(177, 250, 255);
     margin:40px;
     padding: 20px;
     border:5px solid goldenrod;
     border-radius:50px;
+    font-weight: bolder;
     font-size:20px;
     box-shadow:3px 2px 5px rgb(198, 232, 3),2px 3px 4px black;
     text-shadow:3px 3px 4px rgb(0, 151, 0),5px 5px 7px rgb(248, 175, 40);
@@ -111,7 +114,7 @@ a:hover{
     text-align: center;
     margin:25px;
     border:15px solid gold;
-    background-image: linear-gradient(to right,rgb(190, 251, 190),lightgreen,rgb(106, 255, 106),lightgreen,rgb(190, 251, 190));
+    background-image: linear-gradient(to right,rgb(190, 251, 243),rgb(144, 224, 238),rgb(106, 238, 255),rgb(144, 224, 238),rgb(190, 251, 243));
     font-size: 25px;
     font-weight: bolder;
     border-radius: 40%;
@@ -122,7 +125,7 @@ a:hover{
 }
 .imagebt:hover{
     color:gold;
-    border:12px solid green;
+    border:10px solid green;
     border-radius: 30%;
 }
 button:hover{
@@ -136,10 +139,13 @@ img{
     height: 250px;
     width: 250px;
     border-radius: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 p>a{
-    color: green;
+    color: rgb(0, 55, 128);
 }
 p>a:hover{
     color:gold;

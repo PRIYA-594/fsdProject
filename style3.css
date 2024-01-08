@@ -24,7 +24,7 @@
     width:400px;
     height: 500px;
     border:9px solid gold;
-    background-image: radial-gradient(rgb(179, 255, 210),rgb(93, 249, 153),rgb(128, 248, 128),green);
+    background-image: radial-gradient(rgb(201, 255, 223),rgb(162, 255, 198),rgb(146, 252, 146),green);
 }
 .image{
     width:300px;
@@ -48,7 +48,7 @@
 }
 h2{
     color:green;
-    text-shadow: 10px 10px 20px black,5px 5px 3px gold;
+    text-shadow: 10px 10px 20px rgb(117, 117, 117),5px 5px 3px gold;
 }
 h1{
     font-size: 30px;
@@ -73,7 +73,7 @@ strike{
 }
 fieldset
 {
-    text-shadow: 3px 3px 4px black,2px 2px 5px rgb(255, 189, 57);
+    text-shadow: 3px 3px 4px black,2px 2px 3px rgb(54, 36, 1);
     border: 4px solid black;
     margin: 20px;
     font-size: 20px;
@@ -83,6 +83,6 @@ fieldset
 }
 legend{
     font-size: 25px;
-    color:rgb(6, 245, 189);
+    color:rgba(93, 0, 255, 0.429);
     font-weight: bolder;
 }
