@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .top {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .col1 {
+            color: #FFD700;
+        }
+
+        .col2 {
+            color: #FF4500;
+        }
+
+        .ri {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .button {
+            margin: 0 10px;
+        }
+
+        .log {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        .head {
+            margin-top: 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        .sub {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        p {
+            font-size: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            .ri {
+                flex-direction: column;
+            }
+
+            .button {
+                margin: 10px 0;
+            }
+        }
+    </style>
+    <title>LOGIN</title>
+</head>
+<body>
+    <div class="top">
+        <span class="logo">L</span><span class="col1">LITTLE<span class="col2">1</span>
+        <div class="ri">
+            <div class="button"><a  href="main.html">HOME</a></div>
+            <div class="button"><a  href="login.html">LOGIN</a></div>
+            <div class="button"><a href="sign.html">SIGN UP</a></div>
+        </div>
+    </div>
+    <center>
+        <div class="log">
+            <table>
+                <tr>
+                    <th colspan="2"><h1 class="head">Log in with</h1></th>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="mail">Email</label><br>
+                        <input type="email" name="mail" id="mail" placeholder="Enter your email" size="20">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="pass">Password</label><br>
+                        <input type="password" name="pass" id="pass" placeholder="Enter your password" size="20">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2"><button type="submit" value="Log in" class="sub">Log in</button></th>
+                </tr>
+            </table>
+            <p>Don't have an account? <a href="sign.html"><b>Sign Up</b></a></p>
+        </div>
+    </center>
+</body>
+</html>
