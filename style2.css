@@ -20,13 +20,13 @@
 }
 .logo
 {
-    background-color: rgb(133, 248, 104);
-    padding: 2px;
+    background-color: rgb(91, 138, 249);
     font-size: 40px;
     text-align: center;
     margin: 10px;
     padding: 5px 10px;
     color:gold;
+    height:50px;
             
 }
 .col1
@@ -80,9 +80,16 @@ a:hover{
 .category
 {
     display:flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    flex-flow: nowrap;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.category>div{
+    text-align: center;
+    align-items: center;
+    align-content: center;
 }
 .category>button{
     width:500px;
@@ -105,9 +112,9 @@ a:hover{
 .img
 {
     display: flex;
-    flex-direction: row;
-    flex-flow: row;
-    margin-top:50px
+    margin-top:50px;
+    flex-wrap: wrap;
+    
 }
 .imagebt
 {
@@ -117,28 +124,22 @@ a:hover{
     background-image: linear-gradient(to right,rgb(190, 251, 243),rgb(144, 224, 238),rgb(106, 238, 255),rgb(144, 224, 238),rgb(190, 251, 243));
     font-size: 25px;
     font-weight: bolder;
-    border-radius: 40%;
+   
 }
 .imagebt>button{
-    border-radius: inherit;
+    
     border:3px solid black;
 }
 .imagebt:hover{
     color:gold;
     border:10px solid green;
-    border-radius: 30%;
+ 
 }
-button:hover{
-    border-radius: inherit;
 
-}
-img:hover{
-    border-radius: inherit;
-}
 img{
     height: 250px;
     width: 250px;
-    border-radius: inherit;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -149,4 +150,23 @@ p>a{
 }
 p>a:hover{
     color:gold;
+}
+.alert {
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 12px;
+    line-height: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
 }
