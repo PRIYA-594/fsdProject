@@ -6,6 +6,7 @@
     <title>SIGN UP</title>
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="style2.css">
+    <script src="validate.js"></script>
     <style>
         
     </style>
@@ -28,8 +29,11 @@
                 </tr>
                 <tr>
                     <td><label for="name">Name</label></td>
-                    <td><input type="text" name="name" id="name" placeholder="Enter your name"></td>
+                    <td><input onclick="formValidate()" type="text" name="name" id="name" placeholder="Enter your name"></td>
                 </tr>
+               <!-- <tr colspan="2">
+                    <td><p id="dispM"></p></td>
+                </tr>-->
                 <tr>
                     <td><label for="dob">Date of Birth</label></td>
                     <td><input type="date" name="dob" id="dob"></td>
