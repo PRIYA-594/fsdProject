@@ -2,13 +2,19 @@
 {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-image: linear-gradient(green,white,rgb(175, 255, 175),rgb(191, 254, 191),white,green);
+    border:2px solid black;
     padding: 30px;
+    gap:30px 30px;
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 .grid-item {
     padding: 30px;
     font-size: 20px;
     text-align: center;
+    border: 2px solid black;
 
   }
 .grid-item>p{
@@ -21,3 +27,8 @@
 .grid-item>h2:hover{
     color:red;
 }
+.head{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
