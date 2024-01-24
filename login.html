@@ -30,21 +30,22 @@
                 </tr>
                 <tr>
                     <td colspan="2"><label for="mail">Email</label><br>
-                        <input onclick="formValidate()" type="email" name="mail" id="mail" placeholder="Enter your email" size="20">
-                        <p id="dispM"></p>
+                        <input type="email" name="mail" id="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter your email" size="20">
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2"><label for="pass">Password</label><br>
-                        <input type="password"  onclick="formValidate1()" name="pass" id="pass" placeholder="Enter your password" size="20">
-                        <p id ="dispP"></p>
+                        <input type="password" name="pass" id="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter your password" size="20">
                     </td>
                 </tr>
                 <tr>
-                    <th colspan="2"><button type="submit" value="Log in" class="sub">Log in</button></th>
+                    <th colspan="2"><button type="submit" onclick="errorMessage()" value="Log in" class="sub">Log in</button></th>
+                </tr>
+                <tr>
+                   <td colspan="2"><center><span id="error"></span></center></td> 
                 </tr>
             </table>
-            <p style="font-size: 20px;padding: 10px;">Don't have an account? <a href="sign.html"><b>Sign Up</b></a></p>
+            <p class="blw">Don't have an account? <a href="sign.html"><b>Sign Up</b></a></p>
         </div>
     </center>
 </body>

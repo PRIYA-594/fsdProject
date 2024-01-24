@@ -1,6 +1,6 @@
 function showMore() {
 
-    var listData = Array.prototype.slice.call(document.querySelectorAll('#dataLi li:not(.shown)')).slice(0, 3);
+    var listData = Array.prototype.slice.call(document.querySelectorAll('#dataLi li:not(.shown)')).slice(0, 4);
 
   for (var i=0; i < listData.length; i++)
   {
@@ -10,7 +10,7 @@ function showMore() {
 }
 
 function showLess() {
-    var listData = Array.prototype.slice.call(document.querySelectorAll('#dataLi li:not(.hidden)')).slice(-3);
+    var listData = Array.prototype.slice.call(document.querySelectorAll('#dataLi li:not(.hidden)')).slice(-4);
   for (var i=0; i < listData.length; i++)
   {
     listData[i].className  = 'hidden';
